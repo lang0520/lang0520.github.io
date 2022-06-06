@@ -18,6 +18,7 @@ a:visited{
     自動隱藏超出的文字
     設定字體大小
     設定文字顏色*/
+    
 .title::before,.title::after{
     content: '';
     display: inline-block;
@@ -33,6 +34,7 @@ a:visited{
     設定與<div>區塊的相對位置
     設定背景顏色
     從<div>區塊左上角算起，與上方距離為50%時才開始產生*/
+     
 .title::before{
     margin-left: -10px;
     transform: translateX(-100%);
@@ -48,3 +50,4 @@ a:visited{
     color:palevioletred;
     background-color: pink;
 }/*讓my profile的背景及文字變色*/
+
